@@ -7,7 +7,7 @@ export default class App extends React.Component{
     ticker: "",
     price: 0
   }
-
+  
   //Shortcut: [event.target.name] refers to the name parameter in the <input type = 'text' name = 'ticker' .....
   //This allows us to target each form field using one function instead of creating 4 setstates for each form field
   updateFormField = (event) => {
